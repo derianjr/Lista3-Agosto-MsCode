@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="script.js" async></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Calculo Diferença de Datas</h1>
+  <form>
+      <label for="dataFinal">Data Final</label>
+      <input type="date" id="dataFinal">
+    <br><br>
+      <label for="dataInicial">Data Inicial</label>
+      <input type="date" id="dataInicial">
+      <br><br>
+      <input type="button" value="Calcular" onclick="countdown()">
+  </form>
+
+  <div class="contador-container">
+    <div class="contador-el days-c">
+        <p class="text" id="days">0</p>
+        <span>dias</span>
+    </div>
+  </div>
+</body>
+</html>

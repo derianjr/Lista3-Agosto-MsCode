@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js" async></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto do Cronometro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Tempo que falta para a Data especulada...</h1>
+    <form>
+        <input type="date" id="datePicker">
+        <input type="button" value="Iniciar Contagem" id="input-form" onclick="countdown()">
+    </form>
+  
+    <div class="contador-container">
+        <div class="contador-el days-c">
+            <p class="text" id="days">0</p>
+            <span>dias</span>
+        </div>
+
+        <div class="contador-el hours-c">
+            <p class="text" id="hours">0</p>
+            <span>hours</span>
+        </div>
+
+        <div class="contador-el mins-c">
+            <p class="text" id="mins">0</p>
+            <span>mins</span>
+        </div>
+
+        <div class="contador-el seconds-c">
+            <p class="text" id="seconds">0</p>
+            <span>seconds</span>
+        </div>
+    </div>
+</body>
+</html>
